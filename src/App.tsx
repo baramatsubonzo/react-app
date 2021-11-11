@@ -1,7 +1,10 @@
+import { Button, ChakraProvider } from "@chakra-ui/react";
 import "./styles.css";
 
 export default function App() {
   return (
-    <h1>hogehoge</h1>
+    <ChakraProvider>
+      <Button>ボタン</Button>
+    </ChakraProvider>
   );
 }
