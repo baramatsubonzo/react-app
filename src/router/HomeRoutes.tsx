@@ -1,6 +1,6 @@
 import { Home } from "../components/pages/Home";
 import { Setting } from "../components/pages/Settting";
-import { UserManagement } from "../components/pages/UserManagement ";
+import { UserManagement } from "../components/pages/UserManagement";
 import { Page404 } from "../components/pages/Page404";
 
 export const homeRoutes =  [
