@@ -9,7 +9,7 @@ export const useAllUsers = () => {
   const { showMessage } = useMessage()
 
   const [loading, setLoading] = useState<boolean>(false)
-  const [users, setUsers] = useState<Array<User>>()
+  const [users, setUsers] = useState<Array<User>>([])
 
   const getUsers = useCallback(() => {
     setLoading(true)
